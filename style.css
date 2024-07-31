@@ -1,3 +1,45 @@
-p {
+.Title {
     font-size: xx-large;
+    text-align: center;
+}
+
+.top-container {
+    font-size: x-large;
+}
+
+#top-bar{
+    display: flex;
+    margin: 0;
+    background-color: lightblue;
+    height: fit-content;
+    padding: 2%;
+    justify-content: space-between;
+    border: 5px solid black;
+
+}
+
+
+#home-content-container {
+    display: flex;
+    flex-direction: row;
+    font-size: x-large;
+    justify-content:space-evenly;
+}
+.home-paragraph-container{
+    flex-direction: column;
+    height: fit-content;
+    text-align: center;
+}
+.home-content-text{
+    padding: 5%;
+    font-size: medium;
+}
+
+body{
+background-color: aliceblue;
+}
+
+a{
+    color: black;
+
 }
