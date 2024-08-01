@@ -43,3 +43,8 @@ a{
     color: black;
 
 }
+
+li {
+
+    width: max-content;
+}
